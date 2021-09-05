@@ -1,0 +1,32 @@
+html {
+  scroll-behavior: smooth;
+}
+* {
+  box-sizing: border-box;
+}
+body {
+  background-color: rgb(42, 42, 63);
+  color: azure;
+  font-family: Avenir-Roman, sans-serif;
+  margin: 0;
+  padding: 0;
+}
+a {
+  color: azure;
+  text-decoration: none;
+}
+@media only screen and (min-width: 768px) {
+  body {
+    font-size: 16px;
+  }
+}
+@media only screen and (min-width: 480px) {
+  body {
+    font-size: 15px;
+  }
+}
+@media only screen and (min-width: 479px) {
+  body {
+    font-size: 14px;
+  }
+}
